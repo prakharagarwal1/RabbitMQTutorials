@@ -1,0 +1,20 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "Rabbit MQ Tutorials",
+  "main": "producer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:producer": "nodemon producer.js",
+    "dev:consumer": "nodemon consumer.js"
+  },
+  "keywords": [
+    "rabbitmq"
+  ],
+  "author": "Prakhar Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^2.0.1",
+    "nodemon": "^3.1.14"
+  }
+}
